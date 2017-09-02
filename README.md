@@ -5,7 +5,7 @@ Status](https://img.shields.io/travis/indatawetrust/auto-resolve.svg)](https://t
 automatic promise detector for promise.all
 
 #### usage
-```
+```js
 import autoResolve from 'auto-resolve'
 
 autoResolve([() => 5, Promise.resolve(4)]).then(console.log) // [5,4]
