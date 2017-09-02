@@ -9,4 +9,9 @@ automatic promise detector for promise.all
 import autoResolve from 'auto-resolve'
 
 autoResolve([() => 5, Promise.resolve(4)]).then(console.log) // [5,4]
+
+autoResolve(Promise.resolve(6)).then(console.log) // 6
+
+autoResolve(() => 7).then(console.log) // 7
+
 ```
