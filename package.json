@@ -1,0 +1,27 @@
+{
+  "name": "auto-resolve",
+  "version": "0.0.1",
+  "description": "automatic promise detector for promise.all",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indatawetrust/auto-resolve.git"
+  },
+  "keywords": [
+    "promise",
+    "resolve",
+    "auto"
+  ],
+  "author": "indatawetrust",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indatawetrust/auto-resolve/issues"
+  },
+  "homepage": "https://github.com/indatawetrust/auto-resolve#readme",
+  "devDependencies": {
+    "ava": "^0.22.0"
+  }
+}
